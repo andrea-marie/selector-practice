@@ -2,3 +2,40 @@
   font-family: "Lato";
   background-color: lavender;
 }
+
+#part1 > p {
+  color: red;
+}
+
+li{
+  color:purple;
+}
+section > #part1 > ul > .accent {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section > #part2 > img {
+  border: 5px solid red;
+}
+
+section > #part2 > section > img {
+  margin: 10px;
+  border: 5px solid blue;
+}
+
+#part3  > ul {
+    border: dashed 5px blue;
+    }
+
+section > #part4 >  ul > li {
+  color:black;
+}
+
+section > #part4 >  ul > li >ul >li {
+  color: red;
+}
+
+section > #part4 >  p:nth-of-type(even) {
+  color:hotpink;
+}
