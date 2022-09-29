@@ -3,3 +3,29 @@ body {
 }
 
 /* Your code here */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 35px;
+    background-color: gold;
+}
+
+section{
+    float: left;
+    border: solid  rgb(252, 241, 241);
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+section:hover {
+       transform: rotate(5deg);
+}
+
+section > p{
+    color: blue;
+    font: Helvetica;
+    margin-left: 5px;
+    }
